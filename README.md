@@ -1,16 +1,44 @@
-# React + Vite
+# Gestor de Tareas React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación hecha con React donde se pueden agregar tareas, marcarlas como completadas y eliminarlas.
 
-Currently, two official plugins are available:
+También usa LocalStorage para guardar las tareas aunque se recargue la página y una API externa para mostrar consejos aleatorios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías usadas
 
-## React Compiler
+- React
+- JavaScript
+- CSS
+- Vite
+- LocalStorage
+- Fetch API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Componentes usados
 
-## Expanding the ESLint configuration
+- App.jsx
+- TaskForm.jsx
+- TaskList.jsx
+- TaskItem.jsx
+- AdviceBox.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funciones principales
+
+- Agregar tareas
+- Completar tareas
+- Eliminar tareas
+- Guardar tareas en el navegador
+- Obtener consejos desde una API
+
+## Uso de IA
+
+Se utilizó ChatGPT como apoyo para entender React, explicar el código y resolver dudas durante el desarrollo del proyecto.
+
+## link en github
+
+ https://github.com/marcelaSepulvedaSoto/gestor_tareas_react.git
+
+ ## link para ver la pagina
+
+  https://marcelasepulvedasoto.github.io/gestor_tareas_react/
+
+
